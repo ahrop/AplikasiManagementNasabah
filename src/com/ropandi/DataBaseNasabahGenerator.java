@@ -5,6 +5,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import static java.util.Collections.list;
@@ -43,8 +45,9 @@ public class DataBaseNasabahGenerator {
         return cicilanList;
     }
     public static List<DataCicilan> getDataNasabah() throws FileNotFoundException, IOException {
-        File file = new File("D:\\DataNasabah.txt");
-        FileReader fileReader = new FileReader(file);
+        InputStream file = DataBaseNasabahGenerator.class.getResourceAsStream("\\DataBase\\DataNasabah.txt");
+//        File file = new File("");
+        InputStreamReader fileReader = new InputStreamReader(file);
         BufferedReader reader = new BufferedReader(fileReader);
         List<DataCicilan> peopleList = new ArrayList();
         DataCicilan person;

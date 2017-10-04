@@ -71,11 +71,11 @@ System.out.println(count);
                 if (!e.getValueIsAdjusting()) {
                     int i = peopleTable.getSelectedRow();
                     try { switch(i) {
-                        case 0: cicilan = DataBaseNasabahGenerator.getCicilan("E:\\Coba\\CicilanPelanggan1.txt");
+                        case 0: cicilan = DataBaseNasabahGenerator.getCicilan("C:\\Users\\user\\Documents\\NetBeansProjects\\AplikasiManagementNasabah\\src\\com\\ropandi\\DataBase\\CicilanPelanggan1.txt");
                                 break;
-                        case 1 : cicilan = DataBaseNasabahGenerator.getCicilan("E:\\Coba\\CicilanPelanggan2.txt");
+                        case 1 : cicilan = DataBaseNasabahGenerator.getCicilan("C:\\Users\\user\\Documents\\NetBeansProjects\\AplikasiManagementNasabah\\src\\com\\ropandi\\DataBase\\CicilanPelanggan2.txt");
                                 break;
-                        case 2 : cicilan = DataBaseNasabahGenerator.getCicilan("E:\\Coba\\CicilanPelanggan3.txt");
+                        case 2 : cicilan = DataBaseNasabahGenerator.getCicilan("C:\\Users\\user\\Documents\\NetBeansProjects\\AplikasiManagementNasabah\\src\\com\\ropandi\\DataBase\\CicilanPelanggan3.txt");
                                 break;
                         case 3 : cicilan = DataBaseNasabahGenerator.getCicilan("E:\\Coba\\CicilanPelanggan3.txt");
                                 break;
