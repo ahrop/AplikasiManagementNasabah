@@ -77,19 +77,7 @@ System.out.println(count);
                                 break;
                         case 2 : cicilan = DataBaseNasabahGenerator.getCicilan("C:\\Users\\user\\Documents\\NetBeansProjects\\AplikasiManagementNasabah\\src\\com\\ropandi\\DataBase\\CicilanPelanggan3.txt");
                                 break;
-                        case 3 : cicilan = DataBaseNasabahGenerator.getCicilan("E:\\Coba\\CicilanPelanggan3.txt");
-                                break;
-                        case 4 : cicilan = DataBaseNasabahGenerator.getCicilan("E:\\Coba\\CicilanPelanggan3.txt");
-                                break;
-                        case 5 : cicilan = DataBaseNasabahGenerator.getCicilan("E:\\Coba\\CicilanPelanggan3.txt");
-                                break;
-                        case 6 : cicilan = DataBaseNasabahGenerator.getCicilan("E:\\Coba\\CicilanPelanggan3.txt");
-                                break;
-                        case 7 : cicilan = DataBaseNasabahGenerator.getCicilan("E:\\Coba\\CicilanPelanggan3.txt");
-                                break;
-                        case 8 : cicilan = DataBaseNasabahGenerator.getCicilan("E:\\Coba\\CicilanPelanggan3.txt");
-                                break;
-                        case 9 : cicilan = DataBaseNasabahGenerator.getCicilan("E:\\Coba\\CicilanPelanggan3.txt");
+                        case 3 : cicilan = DataBaseNasabahGenerator.getCicilan("C:\\Users\\user\\Documents\\NetBeansProjects\\AplikasiManagementNasabah\\src\\com\\ropandi\\DataBase\\CicilanPelanggan1.txt");
                                 break;
                     }
                         people.get(i).setCicilanList(cicilan);
@@ -311,7 +299,7 @@ System.out.println(count);
 
         jLabel18.setText("Tahun");
 
-        menikahCheckBox.setText("Menikah");
+        menikahCheckBox.setText("menikah");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -450,14 +438,14 @@ System.out.println(count);
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel11.setFont(new java.awt.Font("Times New Roman", 1, 48)); // NOI18N
-        jLabel11.setText("Aplikasi Data Nasabah");
+        jLabel11.setText("Aplikasi Managemen Data Nasabah");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(333, Short.MAX_VALUE)
+                .addContainerGap(69, Short.MAX_VALUE)
                 .addComponent(jLabel11)
                 .addGap(334, 334, 334))
         );

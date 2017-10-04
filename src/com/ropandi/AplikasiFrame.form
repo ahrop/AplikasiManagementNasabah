@@ -491,7 +491,7 @@
         </Component>
         <Component class="javax.swing.JCheckBox" name="menikahCheckBox">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Menikah"/>
+            <Property name="text" type="java.lang.String" value="menikah"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -507,7 +507,7 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="333" max="32767" attributes="0"/>
+                  <EmptySpace pref="69" max="32767" attributes="0"/>
                   <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="334" max="-2" attributes="0"/>
               </Group>
@@ -529,7 +529,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Times New Roman" size="48" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Aplikasi Data Nasabah"/>
+            <Property name="text" type="java.lang.String" value="Aplikasi Managemen Data Nasabah"/>
           </Properties>
         </Component>
       </SubComponents>
