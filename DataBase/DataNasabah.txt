@@ -1,0 +1,4 @@
+32100000000, Arjuna Sajaria, 8967777777, arjunas@gmail.com, 0, 1, 28, Wiraswasta, jl. in ajah yuk no. 4
+32100000000, Sela Saja, 8967777909, eintrusty@gmail.com, 1, 1, 23, Pegawai Negeri Sipil, jl. yuk bosen dirumah no. 4
+32100000000, Marsela Xavier, 896888888, yahoo@gmail.com, 1, 0, 33, Pengangguran, jl. keterangan no. 4
+32100000000, Reyla Fajar, 89689087, reylafajar@gmail.com, 1, 0, 25, Pengusaha, jl. jalan ke pasar pagi no. 4
